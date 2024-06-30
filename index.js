@@ -43,7 +43,7 @@ inquirer.prompt([
         name: "email",
     },
 ]).then(response =>
-    fs.appendFile('Generated-README.md', writeToFile(response), err =>
+    fs.appendFile('README-Generated.md', writeToFile(response), err =>
         err ? console.error('Failed to write to file') : console.log('Success!'))
 );
 
@@ -53,10 +53,17 @@ function writeToFile(response) {
 # Title
 ${response.title}
 
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Testing](#testing)
+- [Questions](#questions)
+ 
 ## Description
 ${response.description}
-
-## Table of Contents
 
 ## Installation
 ${response.installation}
