@@ -32,5 +32,5 @@ N/a
 N/A
 
 ## Questions
-Find me on GitHub: bryan.mcintyre
+Find me on GitHub: bryan.mcintyre |
 For further questions: bryan.mcintyre.08@gmail.com

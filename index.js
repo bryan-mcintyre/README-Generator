@@ -81,7 +81,7 @@ ${response.guidelines}
 ${response.test}
 
 ## Questions
-Find me on GitHub: ${response.username}
+Find me on GitHub: ${response.username} ||
 For further questions: ${response.email}`
 }
 
